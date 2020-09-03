@@ -10,7 +10,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .board {
@@ -32,21 +33,14 @@ body {
 }
 
 .black {
-    background-color: black;
+    background-color: darkgrey;
 }
 
 .white {
-    background-color: white;
+    background-color: lightgrey;
 }
 
-/* .letters {
-    display: flex;
-    background-color: burlywood;
-    width: calc(10*4.5vw);
-    justify-content: center;
-    align-items: flex-end;
+img {
+    width: 4vw;
+    height: 4vw;
 }
-.letters div {
-    width: 4.5vw;
-    height: 4.5vw;
-} */
