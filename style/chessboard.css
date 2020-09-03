@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.board {
+    width: calc(8*4.5vw);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: gray;
+    border: 2vw solid burlywood;
+}
+
+.board div {
+    height: 4.5vw;
+    width: 4.5vw;
+
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
