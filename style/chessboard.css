@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
 body {
@@ -12,8 +13,12 @@ body {
     justify-content: center;
     font-weight: bold;
     font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(93, 56, 13);
 }
 
+/* :not(.black), :not(.white) {
+    border: 10px solid rgb(93, 56, 13);
+} */
 .board {
     width: calc(10*4.5vw);
     display: flex;
@@ -21,7 +26,9 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: burlywood;
+    background-color: rgb(193, 146, 92);
+    border-radius: 15px;
+    border: 10px solid rgb(93, 56, 13);
 }
 
 .board div {
@@ -30,14 +37,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+ 
 }
 
 .black {
-    background-color: darkgrey;
+    background-color:rgb(91, 91, 91);
+    border: .1px solid white;
 }
 
 .white {
-    background-color: lightgrey;
+    background-color: rgb(168, 168, 168);
+    border: .1px solid white;
 }
 
 img {
