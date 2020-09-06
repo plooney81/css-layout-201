@@ -1,0 +1,29 @@
+.row div {
+    
+    height: 20px;
+    /* border: 1px solid red; */
+}
+
+/* [class*="border"] {
+    border-color: black;
+} */
+
+.white {
+    background-color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
