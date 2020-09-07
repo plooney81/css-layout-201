@@ -3,19 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-.row {
-    display: flex;
-    flex-wrap: nowrap;
-}
-.row div {
-    
-    height: 40px;
-    /* border: 1px solid red; */
-}
 
-/* [class*="border"] {
-    border-color: black;
-} */
+.row div {
+    height: 40px;
+}
 
 .white {
     background-color: white;
@@ -26,7 +17,7 @@
 }
 
 .blue {
-    background-color: blue;
+    background-color: rgb(0, 174, 255);
 }
 
 .black {
