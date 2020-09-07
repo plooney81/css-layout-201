@@ -3,9 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .row {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap !important;
 }
 .row div {
     height: 40px;
@@ -29,4 +30,8 @@
 
 .red {
     background-color: red;
+}
+
+.big-border {
+    border-width: 6px !important;
 }
